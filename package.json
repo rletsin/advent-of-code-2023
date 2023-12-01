@@ -1,19 +1,22 @@
 {
-  "name": "@rletsin/advent-of-code-2023",
-  "version": "1.0.0",
-  "description": "The solutions to Advent of Code 2023 puzzles",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rletsin/advent-of-code-2023.git"
-  },
-  "author": "Roman Letsin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rletsin/advent-of-code-2023/issues"
-  },
-  "homepage": "https://github.com/rletsin/advent-of-code-2023#readme"
+    "name": "@rletsin/advent-of-code-2023",
+    "version": "1.0.0",
+    "description": "The solutions to Advent of Code 2023 puzzles",
+    "main": "index.js",
+    "scripts": {
+        "test": "vitest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rletsin/advent-of-code-2023.git"
+    },
+    "author": "Roman Letsin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rletsin/advent-of-code-2023/issues"
+    },
+    "homepage": "https://github.com/rletsin/advent-of-code-2023#readme",
+    "devDependencies": {
+        "vitest": "^0.34.6"
+    }
 }
