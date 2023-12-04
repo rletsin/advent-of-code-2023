@@ -1,5 +1,6 @@
 import { test, expect } from "vitest";
 import { getTotalPoints } from "./puzzle_part1";
+import { getTotalScorecardsOwned } from "./puzzle_part2_recursion";
 import { puzzleInput } from "./puzzleInput";
 
 const exaplePuzzleInput = `Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53
@@ -15,4 +16,12 @@ test("part 1 example: cards worth 13 points", () => {
 
 test("part 1: cards worth 21568 points", () => {
     expect(getTotalPoints(puzzleInput)).toEqual(21568);
+});
+
+test("part 2 example: cards worth 30 points", () => {
+    expect(getTotalScorecardsOwned(exaplePuzzleInput)).toEqual(30);
+});
+
+test("part 2: cards worth 30 points", () => {
+    expect(getTotalScorecardsOwned(puzzleInput)).toEqual(30);
 });
